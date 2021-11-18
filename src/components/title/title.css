@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.header p{
+    font-size: 14px;
+    color: blue;
+    padding: 0 10px;
+}
+
+.header hr{
+    flex-grow: 1;
+}

@@ -1,0 +1,92 @@
+.blogfa-ca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(91, 91, 255);
+}
+
+.blogfa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 220px;
+    background-color: rgb(91, 91, 255);
+    font-family: iransans;
+    position: relative;
+
+
+}
+.p-blogfa{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 0 30px;
+}
+
+.btn-blogfa{
+    background-color: rgb(1, 1, 170);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-family: iransans;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+}
+
+.form{
+    width: 30%;
+    height: 220px;
+    background-color: rgb(240, 240, 240);
+}
+
+.form form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form form input{
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 90%;
+    height: 35px;
+    padding: 0px 10px;
+    margin: 5px 0px;
+}
+
+.input{
+    margin: 10px 0 5px 0 !important;
+}
+.form form input::placeholder{
+    text-align: center;
+    font-family: "iransans";
+    font-size: 12px;
+}
+
+.form form button{
+    width: 90%;
+    height: 35px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: iransans;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.form form a{
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 12px;
+}
