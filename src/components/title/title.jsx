@@ -2,7 +2,7 @@ import './title.css'
 
 const title=()=>{
     return(
-        <div class="header">
+        <div className="header">
             <hr />
             <p>وبلاگ های بروز شده</p>
             <hr />

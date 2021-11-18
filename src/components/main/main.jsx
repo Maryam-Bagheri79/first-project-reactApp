@@ -2,7 +2,7 @@ import Card from '../card/card';
 
 const main=()=>{
     return(
-        <div class="cadr">
+        <div className="cadr">
             <Card />
             <Card />
             <Card />
